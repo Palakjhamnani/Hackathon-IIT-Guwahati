@@ -1,15 +1,15 @@
 Project Description: Predicting Vaccine Uptake
-Introduction
+Introduction:
 The goal of this project is to predict the likelihood of individuals receiving the xyz flu vaccine and the seasonal flu vaccine. This prediction task is crucial for public health planning and intervention, as understanding the factors influencing vaccine uptake can help in designing effective health campaigns and policies. The dataset provided includes various features that capture demographic information, health behaviors, and opinions on vaccines.
 
-Problem Statement
+Problem Statement:
 The problem is formulated as a multilabel classification task where each individual can either receive none, one, or both vaccines. The two target variables are:
 
-xyz_vaccine: Whether the respondent received the xyz flu vaccine (0 = No, 1 = Yes).
+xyz_vaccine:Whether the respondent received the xyz flu vaccine (0 = No, 1 = Yes).
 seasonal_vaccine: Whether the respondent received the seasonal flu vaccine (0 = No, 1 = Yes).
 The task involves predicting the probability of receiving each vaccine using the features provided in the dataset.
 
-Dataset Description
+Dataset Description :
 The dataset includes:
 
 Training Features (training_set_features.csv): Contains 35 features for each respondent, excluding the unique identifier.
